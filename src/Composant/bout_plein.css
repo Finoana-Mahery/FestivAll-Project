@@ -1,0 +1,18 @@
+.bouton_plein{
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color:#022033 ;
+    width: 130px;
+    height: 35px;
+    font-size: 14px;
+    cursor:pointer;
+    border: none;
+    transition: all 280ms ease-in-out;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.bouton_plein:hover{
+    transform: scale(1.05);
+    box-shadow: #022033 0px 0px 2px;
+}

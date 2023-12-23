@@ -1,0 +1,33 @@
+.garde {
+  background-image: url(../assets/loading_page.jpg);
+  height: 858px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  gap: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+}
+
+.garde p {
+  width: 40%;
+  text-align: center;
+  line-height: 29px;
+  font-size:18px;
+  font-weight: 100;
+  
+  
+}
+.garde>h1>span{
+    color: #FF8777;
+}
+.garde h1 {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+ 
+}

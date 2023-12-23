@@ -1,0 +1,18 @@
+.bouton_trans_white {
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  width: 130px;
+  height: 35px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 400ms ease-in-out;
+}
+.bouton_trans_white:hover {
+  background-color: white;
+  color: #022033;
+  font-weight: bold;
+  box-shadow: #0220335a 0px 0px 10px;
+}

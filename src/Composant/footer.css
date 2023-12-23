@@ -1,0 +1,124 @@
+.footer{
+    width: calc(100%);
+    background-color: #022033;
+    height: auto;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+
+   
+}
+h2{
+    font-weight: 300;
+    text-align: center;
+    font-size: 24px;
+    background-color: rgba(0, 255, 255, 0);
+}
+.foot_sup{
+    display: flex;
+    gap: 90px;
+    background-color: rgba(0, 0, 255, 0);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.lo{
+    width: 300px;
+
+}
+.lo p{
+    font-size: 14px;
+    font-weight: 300;
+}
+.men{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0);
+}
+.men ul>li{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.men ul li>a{
+    text-decoration: none;
+    color: white;
+}
+.men ul{
+    background-color: rgba(137, 43, 226, 0);
+    padding: 0;
+    margin: 0;
+}
+.new_leter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.new_leter >input[type="email"]{
+    border: none;
+    height: 30px;
+    background-color: white;
+    color: #022033;
+    padding-left: 5px;
+    border-radius: 1px;
+    font-size: 16px;
+    outline: none;
+    width: 300px;
+    
+}
+.new_leter > input[type="submit"]{
+    width: 100px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+    border: #FF8777 solid 2px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0);
+}
+.contact ul{
+    padding: 0;
+    margin: 0;
+}
+.contact ul>li{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.cp{
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: small;
+}
+.foot_inf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+}
+.socio{
+    display: flex;
+    gap: 40px;
+}

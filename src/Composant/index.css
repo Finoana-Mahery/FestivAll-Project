@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+/******************************RESET CSS*************************/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  height: auto;
+  background-color: #f5f5f5;
+}
+.app {
+  background-color: rgba(222, 4, 51, 0);
+  height: auto;
+  width: inherit;
+  position: relative;
+}
